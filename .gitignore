@@ -46,6 +46,7 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+*.dat
 .tmp_versions/
 modules.order
 Module.symvers
@@ -70,3 +71,12 @@ dkms.conf
 *.txt
 *.sh
 *.manifest
+
+#Ignore all 
+*
+
+# unignore all with extensions
+!*.*
+
+# unignore all dirs
+!*/
